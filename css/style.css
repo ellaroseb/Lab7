@@ -3,31 +3,41 @@
 	overflow: hidden;
 }
 
-#main-navbar ul {
+#navbar-container {
 	float: left;
 	width: 100%;
 	position: relative;
+}
+
+#main-navbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	left: 50%
+	left: 50%;
+	position: relative;
+	float: left;
 }
 
 #main-navbar ul li {
-	float: left;
 	position: relative;
+	float: left;
 	right: 50%;
 	display: block;
-	text-decoration: none;
 }
 
 #main-navbar ul li a {
-	float: left;
 	display: block;
 	padding: 10px 20px;
 	color: #fff;
-	text-decoration: undeline overline;
+	text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
 	background-color: #000;
+}
+
+#onpage {
+	text-decoration: underline overline;
 }
 
 #sidebar {
@@ -35,22 +45,22 @@
 	right: 0%;
 	background-color: red;
 	height: 100%;
+	width: 20%;
 }
 
 #sidebar ul {
-	width: 20%;
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
 }
 
-#sidebar ul li {
+#sidebar ul li a{
 	display: block;
 	padding: 15px 0;
 	color: #fff;
+	text-decoration: none;
 }
 
-#sidebar ul li a {
-	text-decoration: none;
+#sidebar ul li a:hover {
 	background-color: #000;
 }
